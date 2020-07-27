@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Animated from 'react-native-reanimated';
 import ClockValues from './src/ClockValuesAndIdentites';
 import { LoadAssets } from "./src/components";
+import Transitions from './src/Transitions';
 
 const fonts = {
   "SFProText-Bold": require("./src/assets/fonts/SF-Pro-Text-Bold.otf"),
@@ -15,7 +16,8 @@ export default function App() {
   return (
     <LoadAssets {...{ fonts }}>
       <View style={styles.container}>
-        <ClockValues />
+        {/* <ClockValues /> */}
+        <Transitions />
       </View>
     </LoadAssets>
 
