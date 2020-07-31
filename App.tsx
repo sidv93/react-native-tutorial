@@ -7,6 +7,7 @@ import { LoadAssets } from "./src/components";
 import Transitions from './src/Transitions';
 import UseTransition from './src/UseTransition';
 import Timing from './src/Timing';
+import PanGesture from './src/PanGesture';
 
 const fonts = {
   "SFProText-Bold": require("./src/assets/fonts/SF-Pro-Text-Bold.otf"),
@@ -21,7 +22,8 @@ export default function App() {
         {/* <ClockValues /> */}
         {/* <Transitions /> */}
         {/* <UseTransition /> */}
-        <Timing />
+        {/* <Timing /> */}
+        <PanGesture />
       </View>
     </LoadAssets>
 
@@ -32,7 +34,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
