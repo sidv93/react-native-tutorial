@@ -8,6 +8,7 @@ import Transitions from './src/Transitions';
 import UseTransition from './src/UseTransition';
 import Timing from './src/Timing';
 import PanGesture from './src/PanGesture';
+import Decay from './src/Decay';
 
 const fonts = {
   "SFProText-Bold": require("./src/assets/fonts/SF-Pro-Text-Bold.otf"),
@@ -23,7 +24,8 @@ export default function App() {
         {/* <Transitions /> */}
         {/* <UseTransition /> */}
         {/* <Timing /> */}
-        <PanGesture />
+        {/* <PanGesture /> */}
+        <Decay />
       </View>
     </LoadAssets>
 
