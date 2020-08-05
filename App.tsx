@@ -9,6 +9,7 @@ import UseTransition from './src/UseTransition';
 import Timing from './src/Timing';
 import PanGesture from './src/PanGesture';
 import Decay from './src/Decay';
+import Spring from './src/Spring';
 
 const fonts = {
   "SFProText-Bold": require("./src/assets/fonts/SF-Pro-Text-Bold.otf"),
@@ -25,7 +26,8 @@ export default function App() {
         {/* <UseTransition /> */}
         {/* <Timing /> */}
         {/* <PanGesture /> */}
-        <Decay />
+        {/* <Decay /> */}
+        <Spring />
       </View>
     </LoadAssets>
 
